@@ -33,10 +33,12 @@ No ads. No account. No telemetry. No location permission.
 
 ## Download and run
 
-Ready-made builds are not published yet; build from source as shown below.
+Visit [Releases](https://github.com/Anantha-Gokula-Raman-J/Tachyo/releases) for ready-made builds.
 
-- **Windows:** run `build\windows\x64\runner\Release\tachyo.exe`. Tachyo opens its window and shows the floating meter; closing the window keeps it in the tray (hidden icons). Use **Exit** in the tray menu to quit.
-- **Android:** install `build\app\outputs\flutter-apk\app-release.apk`, open Tachyo and switch on **Status bar meter**. The current APK is debug-signed.
+- **Windows x64:** download the ZIP, extract **the entire folder** to a place you will keep, and run **tachyo.exe**. Tachyo opens its window and shows the floating meter; closing the window keeps it in the tray (hidden icons). Use **Exit** in the tray menu to quit. Keep all DLLs and the `data` folder beside the EXE; Flutter and Visual Studio are not needed.
+- **Android:** download the APK, install it (allow installs from your browser or file manager when asked), open Tachyo and switch on **Status bar meter**.
+
+Check downloads against the SHA256 file. Builds are currently unsigned (Windows) or signed with a development key (Android), so Windows SmartScreen and Android may warn before installing.
 
 ## Privacy and your data
 
