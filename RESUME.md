@@ -27,7 +27,7 @@ Last update: 2026-11-21
 - Tray icon pixels not visually inspected (Windows 11 places new icons in the overflow); registration confirmed.
 - Localization (English only).
 - Tray-menu clicks and dragging the floating meter were not driven by automation (code paths are simple; the Dart side of the toggles is unit-tested).
-- No git repository yet (specs use `no-vcs`); `git init` + first commit when the user asks.
+- Git: public repo https://github.com/Anantha-Gokula-Raman-J/Tachyo (main, MIT, modeled on FocusTrack; commits use the GitHub no-reply address via local git config). Specs written before the first commit say `no-vcs`; new History rows use commit hashes. No GitHub Release yet.
 
 ## Where things are
 - Windows build: `build\windows\x64\runner\Release\tachyo.exe`
